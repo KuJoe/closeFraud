@@ -2,7 +2,7 @@ Auto Close Fraud Accounts for WHMCS
 Version 1.0 by KuJoe (JMD.cc)
 	
 //Requirements:
-Must have HostTheBest's free Close Account addon installed and active. http://www.hostthebest.com/closeaccount.php
+Must have HostTheBest's free Close Account addon installed and have the "Inactive after" set (if you set the "Close after" to anything other than 0 then it will negate this hook but will close all accounts that do not have active services). http://www.hostthebest.com/closeaccount.php
 
 //Installation:
 1) Upload the closefraud.php file into your WHMCS's hooks directory (/includes/hooks/).
